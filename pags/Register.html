@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es"><!--Selecciona el idioma-->
+<link rel="stylesheet" href="/estilos/estilosReg.css"><!--Llama los estilos-->
+<link rel="icon" href="/imagenes/barber.jpg" type="image/x-icon">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>The Warrior Barber Shop</title>
+    <nav>
+    <ul id="menu">
+        <li><a href="/pags/index.html">Inicio</a></li>
+        <li><a href="/pags/Repertorio.html">Repertorio</a></li>
+        <li><a href="/pags/Contacto.html">Contacto</a></li>
+        <li><a href="/pags/Register.html" class="select">Registrarse</a></li>
+        <li><a href="/pags/Login.html">Iniciar sesión</a></li>
+    </ul>
+    </nav>
+    <h1 class="center">
+            <a href="/pags/index.html"><img src="/imagenes/barber.jpg" alt="logo" class="imgtit"></a>
+    </h1>
+</head>
+<body>
+    <div class="center">
+        <p class="login-tit">Registro</p>
+    </div>
+
+    <div class="center">
+        <ul>
+            <form action="/pags/Login.html" method="get">
+                <p><label for="name" class="form">Nombre:</label>
+                <input type="text" name="name" required placeholder="Ingrese su nombre"></p>
+                
+                <p><label for="lastname" class="form">Apellidos:</label>
+                <input type="text" id="lastname" name="lastname" required placeholder="Ingrese su apellido"></p>
+
+                <p><label for="username" class="form">Correo:</label>
+                <input type="email" id="username" name="username" required placeholder="Ingrese su correo"></p>
+                
+                <p><label for="password" class="form">Contraseña:</label>
+                <input type="password" id="password" name="password" required placeholder="Ingrese su contraseña"></p>
+                
+                <div class="center">
+                <input type="submit" id="boton" value="Registrarse">
+                <input type="submit" id="boton" value="Cancelar"></div>
+          </form>
+        </ul>
+    </div>
+</body>
+</html>
