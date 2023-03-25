@@ -10,7 +10,7 @@ html{font-family: 'Delicious Handrawn', cursive;
     text-align: center;
     list-style: none;
     background-color: rgba(100, 100, 100, 0.1);
-    margin: -1.15vw 0vw 0vw 0vw;}
+    margin: 0vw 0vw 0vw 0vw;}
 #menu li {display: inline-block;}
 #menu li a {
     display: block; 
