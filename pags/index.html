@@ -1,39 +1,43 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="/estilos/estilosInd.css"><!--Llama los estilos-->
-<html lang="es"><!--Selecciona el idioma-->
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Iso&display=swap" rel="stylesheet">
-    <link rel="icon" href="/imagenes/barber.jpg" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>The Warrior Barber Shop</title>
-    <nav>
-        <ul id="menu">
-            <li><a href="/pags/index.html" class="select">Inicio</a></li>
-            <li><a href="/pags/Repertorio.html">Repertorio</a></li>
-            <li><a href="/pags/Contacto.html">Contacto</a></li>
-            <li><a href="/pags/Register.html">Registrarse</a></li>
-            <li><a href="/pags/Login.html">Iniciar sesión</a></li>
-        </ul>
-    </nav>
-</head>
-<body>
-    <div class="center">
-            <a href="/pags/index.html"><img src="/imagenes/barber.jpg" alt="logo" class="imgtit"></a>
-    </div>
-        <p>
-            Me apasiona el arte de la barbería y me dedico a crear un ambiente acogedor y relajante donde los hombres puedan disfrutar de una experiencia de cuidado personal a medida. Nuestro equipo de barberos altamente capacitados están aquí para ayudarte a encontrar el estilo perfecto que se adapte a tu personalidad y estilo de vida, mientras te brindan una atención personalizada y amigable. Además, nos enorgullece ofrecer una amplia gama de productos de calidad para el cuidado del cabello y la barba que te ayudarán a mantener un aspecto elegante y bien cuidado. ¡Te invitamos a visitarnos y experimentar nuestra barbería de primera mano!
-        </p>
-    <div class="center">
-        <img src="/imagenes/img1.png" alt="img1" class="imgind">
-        <img src="/imagenes/img2.png" alt="img2" class="imgind">
-        <img src="/imagenes/img3.png" alt="img3" class="imgind">
-    </div>
-</body>
-</html>
+html{font-family: 'Delicious Handrawn', cursive;
+    background-image: url(/imagenes/reinounido.png);
+    color: white;}
+.center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+#menu {
+    float: top; 
+    text-align: center;
+    list-style: none;
+    background-color: rgba(100, 100, 100, 0.1);
+    margin: 0vw 0vw 0vw 0vw;}
+#menu li {display: inline-block;}
+#menu li a {
+    display: block; 
+    padding: 0.5vw 2vw;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color:rgb(0, 0, 200);
+    -webkit-text-stroke: 0.03vw rgb(255, 255, 255);
+    font-size: 2.5vw;}
+#menu li a:hover {
+    color: rgb(200, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.5);
+    /* -webkit-text-stroke: 0.05vw rgb(255, 255, 255); */
+    /* font-size: 1.7vw;} */}
+.select{
+    color:rgb(150, 0, 200);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);}
+body{background-color: rgb(0, 0, 0,0.9); margin: 0vw 5vw;}
+.imgtit{height: 10vw; 
+    width: 15vw; 
+    padding: 0.3vw;
+    margin: -0.5vw 0vw -0.5vw 0vw;}
+p{  background-color: rgba(100, 100, 100, 0.1);
+    padding: 1vw;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3vw;}
+.imgind{height: 20vw;
+    width: 25vw;
+    margin: 1vw 2vw;}
