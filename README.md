@@ -1,3 +1,3 @@
 # JuanPlf.github.io
-The Warrior Barber Shop
+The Warrior Barber Shop - 
 Juan Pablo Lizcano Flórez
